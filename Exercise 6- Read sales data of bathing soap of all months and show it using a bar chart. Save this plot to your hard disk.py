@@ -9,9 +9,6 @@ df = pd.read_csv('company_sales_data.csv')
 
 bathingsoap = df['bathingsoap'].tolist()
 monthlist = df['month_number'].tolist()
-#Exercise 6
-
-# Read the sales data of bathing soap of all months and show it using a bara chart and save this plot to your hard disk
 
 #Solution
 
