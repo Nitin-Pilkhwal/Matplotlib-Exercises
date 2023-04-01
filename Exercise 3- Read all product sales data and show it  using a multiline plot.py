@@ -6,9 +6,6 @@ import matplotlib.pyplot as plt
 #importing dataset which is saved locally
 df = pd.read_csv('company_sales_data.csv')
 
-#Exercise 3
-# Display the number of units sold per month for each product using multiline plots. (i.e., Separate Plotline for each product ).
-
 #Solution
 
 columns = ["month_number","facecream","facewash","toothpaste","bathingsoap","shampoo","moisturizer","total_units","total_profit"]
