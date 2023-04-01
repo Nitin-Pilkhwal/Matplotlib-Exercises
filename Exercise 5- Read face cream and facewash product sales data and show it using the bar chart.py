@@ -6,9 +6,6 @@ import matplotlib.pyplot as plt
 #importing dataset which is saved locally
 df = pd.read_csv('company_sales_data.csv')
 
-#Exercise 5
-
-# The bar chart should display the number of units sold per month for each product. Add a separate bar for each product in the same chart.
 
 #Solution
 
