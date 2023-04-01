@@ -5,19 +5,6 @@ import matplotlib.pyplot as plt
 #importing dataset which is saved locally
 df = pd.read_csv('company_sales_data.csv')
 
-#Exercise 2
-# Generated line plot must include following Style properties: –
-
-# Line Style dotted and Line-color should be red
-# Show legend at the lower right location.
-# X label name = Month Number
-# Y label name = Sold units number
-# Add a circle marker.
-# Line marker color as red
-# Line width should be 3
-
-
-
 #Solution
 
 columns = ["month_number","facecream","facewash","toothpaste","bathingsoap","shampoo","moisturizer","total_units","total_profit"]
