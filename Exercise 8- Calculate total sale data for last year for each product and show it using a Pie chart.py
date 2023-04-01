@@ -7,10 +7,6 @@ import matplotlib.pyplot as plt
 #importing dataset which is saved locally
 df = pd.read_csv('company_sales_data.csv')
 
-#Exercise 7
-
-# Exercise 7: Read the total profit of each month and show it using the histogram to see the most common profit ranges
-
 #Solution
 
 columns = ["month_number","facecream","facewash","toothpaste","bathingsoap","shampoo","moisturizer","total_units","total_profit"]
